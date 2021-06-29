@@ -1,0 +1,9 @@
+4.
+void main() {
+
+  double lado = 5;
+  double resultado = lado * lado;
+  
+  print("Área de um quadrado: $resultado m²");
+   
+}

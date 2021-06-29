@@ -1,0 +1,10 @@
+2.
+void main() {
+
+  double valorEntrada = 21.90;
+  int numeroPessoas = 4;
+  double resultado = valorEntrada * numeroPessoas;
+  
+  print("Valor da Entrada: $valorEntrada \n" + "Quantidade de Pessoas: $numeroPessoas \n" + "Total: $resultado");
+   
+}

@@ -1,0 +1,13 @@
+5.
+void main() {
+
+  String primeiraPessoa = "Geliel";
+  String segundaPessoa = "Roger";
+  
+  if(primeiraPessoa == segundaPessoa ){
+    print("É a mesma pessoa.");
+  }
+  else{
+    print("Não é a mesma pessoa.");
+  }
+}
