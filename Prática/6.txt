@@ -1,0 +1,21 @@
+void main() {
+  double nota1 = 6;
+  double nota2 = 6;
+  double nota3 = 7;
+  double nota4 = 9;
+  double result = (nota1 + nota2 + nota3 + nota4) / 4;
+
+  if (result >= 7) {
+    print("Aprovado! $result");
+    if (result >= 9) {
+      print("Conceito: A.");
+    } else if (result >= 8 && result <= 8.9) {
+      print("Conceito: B.");
+    } else {
+      print("Conceito: C.");
+    }
+  } else {
+    print("Reprovado, Conceito: $result");
+    print("Conceito: F");
+  }
+}

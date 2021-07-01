@@ -1,0 +1,30 @@
+void main() {
+  
+  int a = 2;
+  int b = 4;
+  int c = 5;
+  int resulta;
+  double resultb;
+  
+  
+  print("Variaveis: \n A = $a \n B = $b \n C = $c");
+  
+  resulta = a + b * c;
+  
+  print ("Calculo A: = a + b * c");
+  
+  print("RESULTADO: $resulta");
+  
+  resultb = - 2 + (b / a * c) ;
+  
+  print ("Calculo B: 2 = b / a * c");
+  
+  print("RESULTADO: $resultb");
+  
+  if(resultb == resulta){
+    print("São iguais");
+  }
+  else{
+    print("São diferentes");
+  }
+}

@@ -1,0 +1,14 @@
+void main() {
+  
+  int nota1 = 7;
+  int nota2 = 7;
+  int result = (nota1 + nota2) ~/ 2;
+  
+  
+  
+  if (result >= 6){
+    print("Aprovado, Nota: $result");
+  }else{
+    print("Reprovado, Nota: $result");
+  }
+}

@@ -1,0 +1,12 @@
+void main() {
+  
+  double saldoConta = 8000;
+  double saque = 700;
+  double saldoAtual = saldoConta - saque;
+  
+  if(saldoConta >= saque){
+    print("Saque efetuado com sucesso! $saque reais \nSaldo Atual: $saldoAtual");
+  }else{
+    print("Saldo Indisponivel!");
+  }
+}

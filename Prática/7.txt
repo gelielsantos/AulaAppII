@@ -1,0 +1,30 @@
+void main() {
+  int peso=110;
+  double altura=1.64;
+   
+  
+  
+  double resultado= peso/(altura*altura);
+  
+  
+  
+ if(resultado <18.5){
+   print("Abaixo do peso");
+ }
+  else if(resultado >= 18.5 && resultado <=24.9){
+   print("Peso normal");
+ }
+  else if(resultado >= 25.0 && resultado <= 29.9){
+   print("Sobrepeso");
+ }
+  else if(resultado >= 30.0 && resultado <= 34.9){
+   print("Obesidade Grau I");
+ }
+  else if(resultado >= 35.0 && resultado <= 39.9){
+   print("Obesidade Grau II");
+ }
+  else {
+   print("Obesidade Grau III");
+ }
+  
+}

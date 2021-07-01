@@ -1,0 +1,16 @@
+void main() {
+  
+  double idade = 70;
+  
+  if(idade <= 12){
+    print("Categoria: \nCriança, 0 a 12 anos ");
+  }else if(idade >= 13 && idade <= 21){
+    print("Categoria: \nJovem, 13 a 21 anos ");
+  }
+  else if(idade >= 22 && idade <= 59){
+    print("Categoria: \nAdulto, 22 a 59 anos ");
+  }
+    else {
+    print("Categoria: \nTerceira Idade, 60 anos ou mais ");
+    }
+}

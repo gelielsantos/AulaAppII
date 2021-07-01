@@ -1,0 +1,18 @@
+void main() {
+  
+  double peso = 90;
+  
+  if(peso <= 60){
+    print("P - menor que 60kg");
+  }
+  else if(peso >= 61 && peso <= 74){
+    print("M - 61kg a 74kg");
+  }
+  else if(peso >= 75 && peso <= 85){
+    print("G - 75kg a 85kg");
+  }
+  else{
+    print("GG - acima de 86kg");
+  }
+
+}
