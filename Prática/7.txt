@@ -1,15 +1,17 @@
 void main() {
-  int peso=110;
+  int peso=62;
   double altura=1.64;
    
-  
-  
   double resultado= peso/(altura*altura);
   
-  
-  
- if(resultado <18.5){
-   print("Abaixo do peso");
+ if(resultado <16){
+   print("Magreza Grave");
+ }
+  else if(resultado >= 16.1 && resultado <=17){
+   print("Magreza Moderada");
+ }
+  else if(resultado >= 17.1 && resultado <=18.4){
+   print("Magreza Leve");
  }
   else if(resultado >= 18.5 && resultado <=24.9){
    print("Peso normal");
