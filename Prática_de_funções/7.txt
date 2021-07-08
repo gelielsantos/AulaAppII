@@ -1,0 +1,16 @@
+void main(){
+  int num1 = 6;
+  print(parImpar(num1).toString());
+} 
+
+int parImpar(int num1){
+  int fina = 0;
+  
+  if(num1%2 == 0){
+    fina = 1;
+  }else{
+    fina = 0;
+  }
+  
+  return fina;
+}

@@ -1,0 +1,18 @@
+void main(){
+ 
+  print(testPrimo(9));
+  
+} 
+
+bool testPrimo(int num){
+  if(num < 0){
+    print("Número inválido");
+  }
+  
+  for (int j = 2; j < num; j++) {
+    if (num % j == 0){
+      return false;
+    }
+  }
+  return true;
+}

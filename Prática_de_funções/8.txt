@@ -1,0 +1,26 @@
+import 'dart:math';
+
+void main(){
+  
+  dynamic num1, num2;
+  num1 = -6;
+  num2 = 4;
+  
+  oper(num1, num2);
+} 
+
+dynamic oper(dynamic num1, dynamic num2){
+  dynamic a = num1 + num2;
+  dynamic b = num1 * pow(num2, 2);
+  dynamic c = pow(num1, 2);
+  dynamic d = 3*(2*a);
+  dynamic e = d/2;
+  dynamic f = num1.abs();
+    
+  print("Soma dos números: " + a.toString());
+  print("O produto do primeiro número pelo quadrado do segundo: " + b.toString());
+  print("O quadrado do primeiro número: " + c.toString());
+  print("O triplo do dobro da soma dos dois números: " + d.toString());
+  print("A metade do triplo do dobro da soma dos dois números: " + e.toString());
+  print("O módulo do primeiro número: " + f.toString());
+}

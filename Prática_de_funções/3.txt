@@ -1,0 +1,22 @@
+void main(){
+ 
+  if(posi(-10)== true){
+    
+    print("Negativo");
+  }
+  
+  else{
+      print("Positivo");
+    }
+}
+  
+
+bool posi(int num){
+  if(num < 0){
+    return true;
+  }
+  
+  else{
+      return false;
+    }
+}

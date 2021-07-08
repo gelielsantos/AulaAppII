@@ -1,0 +1,19 @@
+void main(){
+  int num1 = 1;
+  int num2 = 0;
+  
+  soma(num1, num2);
+  
+} 
+
+int soma(int num1, int num2){
+  int soma = 0;
+  
+  if(num1 < 0 || num2 < 0){
+    print("Os números não podem ser negativos!");
+  }else{
+    soma = num1 + num2;
+    print("Soma = $soma");
+  }
+  return soma;
+}
