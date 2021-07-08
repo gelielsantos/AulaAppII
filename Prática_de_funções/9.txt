@@ -1,5 +1,5 @@
 void main() {
-  compara(13,11);
+  compara(2,20);
 }
 
 void compara(int pri, int seg) {
@@ -14,7 +14,7 @@ void compara(int pri, int seg) {
   }
   else if (seg<pri){
     
-    for(int i = seg; i <= pri ; i++){
+    for(int i = pri; i >= seg ; i--){
       
       print ("$i");
     }
