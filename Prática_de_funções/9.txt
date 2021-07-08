@@ -1,0 +1,25 @@
+void main() {
+  compara(13,11);
+}
+
+void compara(int pri, int seg) {
+  
+  if(pri<seg){
+
+    for(int i = seg; i >= pri; i--){
+      
+      print ("$i");
+    }
+    
+  }
+  else if (seg<pri){
+    
+    for(int i = seg; i <= pri ; i++){
+      
+      print ("$i");
+    }
+   
+  }
+  else
+    print("Valores Iguais");
+}
