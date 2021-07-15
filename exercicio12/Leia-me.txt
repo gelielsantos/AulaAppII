@@ -1,0 +1,1 @@
+Os arquivos ficaram grandes demais. Então coloquei so o essencial aqui. A imagem, a pasta lib e o pubspec.
